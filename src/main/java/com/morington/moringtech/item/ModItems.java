@@ -14,7 +14,11 @@ public class ModItems {
     );
 
     public static final RegistryObject<Item> IRONROD = ITEMS.register(
-            "ironrod", () -> new Item(new Item.Properties().maxStackSize(32).group(ItemGroup.MATERIALS))
+            "ironrod", () -> new Item(
+                    new Item.Properties()
+                            .maxStackSize(32)
+                            .group(ModItemGroup.MATERIALS)
+            )
     );
 
     public static void register(IEventBus eventBus) {
