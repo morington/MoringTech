@@ -1,5 +1,6 @@
 package com.morington.moringtech;
 
+import com.morington.moringtech.block.ModBlocks;
 import com.morington.moringtech.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -30,6 +31,7 @@ public class MoringTechMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::enqueueIMC);

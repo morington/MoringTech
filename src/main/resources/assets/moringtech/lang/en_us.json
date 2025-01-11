@@ -1,4 +1,7 @@
 {
   "itemGroup.moringtechMaterialsTab": "Materials",
-  "item.moringtech.ironrod": "Iron rod"
+  "item.moringtech.ironrod": "Iron rod",
+
+  "itemGroup.moringtechOresTab": "Ores",
+  "block.moringtech.iron_ore": "Iron ore"
 }

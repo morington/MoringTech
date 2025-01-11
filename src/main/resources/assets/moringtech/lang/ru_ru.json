@@ -1,4 +1,7 @@
 {
   "itemGroup.moringtechMaterialsTab": "Материалы",
-  "item.moringtech.ironrod": "Железный стержень"
+  "item.moringtech.ironrod": "Железный стержень",
+
+  "itemGroup.moringtechOresTab": "Руды",
+  "block.moringtech.iron_ore": "Железная руда"
 }
