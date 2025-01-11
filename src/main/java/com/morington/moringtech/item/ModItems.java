@@ -1,6 +1,7 @@
 package com.morington.moringtech.item;
 
 import com.morington.moringtech.MoringTechMod;
+import com.morington.moringtech.item.tools.BoxMatches;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
@@ -33,6 +34,15 @@ public class ModItems {
                     new Item.Properties()
                             .maxStackSize(64)
                             .group(ModItemGroup.ORES)
+            )
+    );
+
+    public static final RegistryObject<Item> BOX_MATCHES = ITEMS.register(
+            "box_matches", () -> new BoxMatches(
+                    new Item.Properties()
+                            .maxStackSize(64)
+                            .group(ModItemGroup.TOOLS)
+                            .maxDamage(8)
             )
     );
 

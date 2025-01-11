@@ -5,5 +5,8 @@
   "item.moringtech.stone_crumb": "Каменная крошка",
 
   "itemGroup.moringtechOresTab": "Руды",
-  "block.moringtech.iron_ore": "Железная руда"
+  "block.moringtech.iron_ore": "Железная руда",
+
+  "itemGroup.moringtechToolsTab": "Инструменты",
+  "item.moringtech.box_matches": "Коробок спичек"
 }

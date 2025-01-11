@@ -5,5 +5,8 @@
   "item.moringtech.stone_crumb": "Stone crumb",
 
   "itemGroup.moringtechOresTab": "Ores",
-  "block.moringtech.iron_ore": "Iron ore"
+  "block.moringtech.iron_ore": "Iron ore",
+
+  "itemGroup.moringtechToolsTab": "Tools",
+  "item.moringtech.box_matches": "Box of matches"
 }

@@ -18,4 +18,11 @@ public class ModItemGroup {
             return new ItemStack(ModBlocks.IRON_ORE.get());
         }
     };
+
+    public static final ItemGroup TOOLS = new ItemGroup("moringtechToolsTab") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(ModItems.BOX_MATCHES.get());
+        }
+    };
 }
