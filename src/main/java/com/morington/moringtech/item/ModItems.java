@@ -2,7 +2,6 @@ package com.morington.moringtech.item;
 
 import com.morington.moringtech.MoringTechMod;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -13,11 +12,19 @@ public class ModItems {
             ForgeRegistries.ITEMS, MoringTechMod.MODID
     );
 
-    public static final RegistryObject<Item> IRONROD = ITEMS.register(
-            "ironrod", () -> new Item(
+    public static final RegistryObject<Item> IRON_ROD = ITEMS.register(
+            "iron_rod", () -> new Item(
                     new Item.Properties()
                             .maxStackSize(32)
                             .group(ModItemGroup.MATERIALS)
+            )
+    );
+
+    public static final RegistryObject<Item> IRON_ITEM_ORE = ITEMS.register(
+            "iron_item_ore", () -> new Item(
+                    new Item.Properties()
+                            .maxStackSize(64)
+                            .group(ModItemGroup.ORES)
             )
     );
 

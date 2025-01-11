@@ -8,7 +8,7 @@ public class ModItemGroup {
     public static final ItemGroup MATERIALS = new ItemGroup("moringtechMaterialsTab") {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModItems.IRONROD.get());
+            return new ItemStack(ModItems.IRON_ROD.get());
         }
     };
 
