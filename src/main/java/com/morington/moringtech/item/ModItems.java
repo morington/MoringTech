@@ -20,6 +20,14 @@ public class ModItems {
             )
     );
 
+    public static final RegistryObject<Item> STONE_CRUMB = ITEMS.register(
+            "stone_crumb", () -> new Item(
+                    new Item.Properties()
+                            .maxStackSize(64)
+                            .group(ModItemGroup.MATERIALS)
+            )
+    );
+
     public static final RegistryObject<Item> IRON_ITEM_ORE = ITEMS.register(
             "iron_item_ore", () -> new Item(
                     new Item.Properties()
