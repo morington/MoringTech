@@ -1,53 +1,51 @@
 package com.morington.moringtech.block;
 
-import com.morington.moringtech.item.ModItemGroup;
-import com.morington.moringtech.item.ModItems;
-import net.minecraft.block.AbstractBlock;
+import com.morington.moringtech.group.ModGroup;
 import net.minecraft.block.Block;
-import net.minecraft.block.material.Material;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraftforge.common.ToolType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 
-import com.morington.moringtech.MoringTechMod;
-
-import java.util.function.Supplier;
 
 public class ModBlocks {
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(
-            ForgeRegistries.BLOCKS, MoringTechMod.MODID
-    );
+    // Ores
+    public static final RegistryObject<Block> ORE_SPODUMENE = ModBlockBuilder.createAndBuild("ore/spodumene", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_LEPIDOLITE = ModBlockBuilder.createAndBuild("ore/lepidolite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_BERYL = ModBlockBuilder.createAndBuild("ore/beryl", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_MAGNESITE = ModBlockBuilder.createAndBuild("ore/magnesite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_DOLOMITE = ModBlockBuilder.createAndBuild("ore/dolomite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_ILMENITE = ModBlockBuilder.createAndBuild("ore/ilmenite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_RUTILE = ModBlockBuilder.createAndBuild("ore/rutile", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_CHROMITE = ModBlockBuilder.createAndBuild("ore/chromite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_PYROLUSITE = ModBlockBuilder.createAndBuild("ore/pyrolusite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_BRAUNITE = ModBlockBuilder.createAndBuild("ore/braunite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_MAGNETITE = ModBlockBuilder.createAndBuild("ore/magnetite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_HEMATITE = ModBlockBuilder.createAndBuild("ore/hematite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_LIMONITE = ModBlockBuilder.createAndBuild("ore/limonite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_SIDERITE = ModBlockBuilder.createAndBuild("ore/siderite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_COBALTITE = ModBlockBuilder.createAndBuild("ore/cobaltite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_CARROLLITE = ModBlockBuilder.createAndBuild("ore/carrollite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_GARNIERITE = ModBlockBuilder.createAndBuild("ore/garnierite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_PENTLANDITE = ModBlockBuilder.createAndBuild("ore/pentlandite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_CHALCOPYRITE = ModBlockBuilder.createAndBuild("ore/chalcopyrite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_BORNITE = ModBlockBuilder.createAndBuild("ore/bornite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_MALACHITE = ModBlockBuilder.createAndBuild("ore/malachite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_SPHALERITE = ModBlockBuilder.createAndBuild("ore/sphalerite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_MOLYBDENITE = ModBlockBuilder.createAndBuild("ore/molybdenite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_SCHEELITE = ModBlockBuilder.createAndBuild("ore/scheelite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_GOLD = ModBlockBuilder.createAndBuild("ore/gold", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_ARGENTITE = ModBlockBuilder.createAndBuild("ore/argentite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_PLATINUM = ModBlockBuilder.createAndBuild("ore/platinum", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_BASTNASITE = ModBlockBuilder.createAndBuild("ore/bastnasite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_MONAZITE = ModBlockBuilder.createAndBuild("ore/monazite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_URANINITE = ModBlockBuilder.createAndBuild("ore/uraninite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_CASSITERITE = ModBlockBuilder.createAndBuild("ore/cassiterite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_GALENA = ModBlockBuilder.createAndBuild("ore/galena", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_STIBNITE = ModBlockBuilder.createAndBuild("ore/stibnite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_BISMUTHINITE = ModBlockBuilder.createAndBuild("ore/bismuthinite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_ORE_SULFUR = ModBlockBuilder.createAndBuild("ore/sulfur", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_APATITE = ModBlockBuilder.createAndBuild("ore/apatite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_QUARTZ = ModBlockBuilder.createAndBuild("ore/quartz", ModGroup.ORE);
 
-    public static final RegistryObject<Block> IRON_ORE = registerBlock("iron_ore",
-            () -> new Block(
-                    AbstractBlock.Properties.create(Material.ROCK)
-                            .harvestLevel(1)
-                            .harvestTool(ToolType.PICKAXE)
-                            .setRequiresTool()
-                            .hardnessAndResistance(5f)
-            )
-    );
 
-    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
-        RegistryObject<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn);
-        return toReturn;
-    }
-
-    private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(
-                        block.get(),
-                        new Item.Properties()
-                                .group(ModItemGroup.ORES)
-                )
-        );
-    }
-
-    public static void register(IEventBus eventBus) {
-        BLOCKS.register(eventBus);
-    }
+    public static void register(IEventBus eventBus) {ModBlockBuilder.BLOCKS.register(eventBus);}
 }

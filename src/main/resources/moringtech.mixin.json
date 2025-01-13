@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.morington.moringtech.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinEndPortalBlock"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "moringtech.mixin-refmap.json"
+}

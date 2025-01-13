@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "moringtech:item/iron_item_ore"
-  }
-}

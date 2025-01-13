@@ -1,12 +1,8 @@
 {
-  "itemGroup.moringtechMaterialsTab": "Materials",
-  "item.moringtech.iron_rod": "Iron rod",
-  "item.moringtech.iron_item_ore": "Iron ore",
-  "item.moringtech.stone_crumb": "Stone crumb",
+  "itemGroup.moringtechOreTab": "Ore",
 
-  "itemGroup.moringtechOresTab": "Ores",
-  "block.moringtech.iron_ore": "Iron ore",
+  "itemGroup.moringtechOreChunkTab": "Ore Fragments",
 
-  "itemGroup.moringtechToolsTab": "Tools",
-  "item.moringtech.box_matches": "Box of matches"
+  "itemGroup.moringtechDustTab": "Dust",
+
 }

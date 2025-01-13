@@ -1,52 +1,17 @@
 package com.morington.moringtech.item;
 
-import com.morington.moringtech.MoringTechMod;
-import com.morington.moringtech.item.tools.BoxMatches;
+import com.morington.moringtech.group.ModGroup;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModItems {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(
-            ForgeRegistries.ITEMS, MoringTechMod.MODID
-    );
+    // Ore Chunk
+    public static final RegistryObject<Item> ORE_LITHIUM = ModItemBuilder.createAndBuild("ore/chunk/lithium", ModGroup.ORE_CHUNK);
 
-    public static final RegistryObject<Item> IRON_ROD = ITEMS.register(
-            "iron_rod", () -> new Item(
-                    new Item.Properties()
-                            .maxStackSize(32)
-                            .group(ModItemGroup.MATERIALS)
-            )
-    );
 
-    public static final RegistryObject<Item> STONE_CRUMB = ITEMS.register(
-            "stone_crumb", () -> new Item(
-                    new Item.Properties()
-                            .maxStackSize(64)
-                            .group(ModItemGroup.MATERIALS)
-            )
-    );
+    // Dust
+    public static final RegistryObject<Item> DUST_STONE = ModItemBuilder.createAndBuild("dust/stone", ModGroup.DUST);
 
-    public static final RegistryObject<Item> IRON_ITEM_ORE = ITEMS.register(
-            "iron_item_ore", () -> new Item(
-                    new Item.Properties()
-                            .maxStackSize(64)
-                            .group(ModItemGroup.ORES)
-            )
-    );
-
-    public static final RegistryObject<Item> BOX_MATCHES = ITEMS.register(
-            "box_matches", () -> new BoxMatches(
-                    new Item.Properties()
-                            .maxStackSize(64)
-                            .group(ModItemGroup.TOOLS)
-                            .maxDamage(8)
-            )
-    );
-
-    public static void register(IEventBus eventBus) {
-        ITEMS.register(eventBus);
-    }
+    public static void register(IEventBus eventBus) {ModItemBuilder.ITEMS.register(eventBus);}
 }
