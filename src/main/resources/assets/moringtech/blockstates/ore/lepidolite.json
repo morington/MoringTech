@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/lepidolite"}
+    "": {
+      "model": "moringtech:block/ore/lepidolite"
+    }
   }
 }

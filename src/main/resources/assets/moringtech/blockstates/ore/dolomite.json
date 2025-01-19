@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/dolomite"}
+    "": {
+      "model": "moringtech:block/ore/dolomite"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/ilmenite"}
+    "": {
+      "model": "moringtech:block/ore/ilmenite"
+    }
   }
 }

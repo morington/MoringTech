@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/braunite"}
+    "": {
+      "model": "moringtech:block/ore/braunite"
+    }
   }
 }

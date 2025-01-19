@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/sphalerite"}
+    "": {
+      "model": "moringtech:block/ore/sphalerite"
+    }
   }
 }

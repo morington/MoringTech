@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/chalcopyrite"}
+    "": {
+      "model": "moringtech:block/ore/chalcopyrite"
+    }
   }
 }

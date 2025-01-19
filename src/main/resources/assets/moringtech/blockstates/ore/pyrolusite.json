@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/pyrolusite"}
+    "": {
+      "model": "moringtech:block/ore/pyrolusite"
+    }
   }
 }

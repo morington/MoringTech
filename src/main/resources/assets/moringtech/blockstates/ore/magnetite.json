@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/magnetite"}
+    "": {
+      "model": "moringtech:block/ore/magnetite"
+    }
   }
 }

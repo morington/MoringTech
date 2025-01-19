@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/apatite"}
+    "": {
+      "model": "moringtech:block/ore/apatite"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/molybdenite"}
+    "": {
+      "model": "moringtech:block/ore/molybdenite"
+    }
   }
 }

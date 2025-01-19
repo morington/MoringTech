@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/uraninite"}
+    "": {
+      "model": "moringtech:block/ore/uraninite"
+    }
   }
 }

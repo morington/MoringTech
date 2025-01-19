@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/sulfur"}
+    "": {
+      "model": "moringtech:block/ore/sulfur"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/siderite"}
+    "": {
+      "model": "moringtech:block/ore/siderite"
+    }
   }
 }

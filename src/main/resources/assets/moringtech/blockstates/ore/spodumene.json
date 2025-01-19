@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/spodumene"}
+    "": {
+      "model": "moringtech:block/ore/spodumene"
+    }
   }
 }

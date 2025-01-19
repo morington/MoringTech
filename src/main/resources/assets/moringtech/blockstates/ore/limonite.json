@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/limonite"}
+    "": {
+      "model": "moringtech:block/ore/limonite"
+    }
   }
 }

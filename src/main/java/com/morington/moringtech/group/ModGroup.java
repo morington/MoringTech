@@ -10,20 +10,26 @@ import java.util.function.Supplier;
 public class ModGroup {
 
     // Ore
-    public static final ItemGroup ORE = createItemGroup("moringtechOreTab", () -> new ItemStack(ModBlocks.ORE_SPODUMENE.get()));
+    public static final ItemGroup ORE = createItemGroup("moringtechMineralsTab", () -> new ItemStack(ModBlocks.ORE_SPODUMENE.get()));
 
     // Ore Chunk
     public static final ItemGroup ORE_CHUNK = createItemGroup("moringtechOreChunkTab", () -> new ItemStack(ModItems.ORE_LITHIUM.get()));
 
+    // Ore Fraction
+    public static final ItemGroup ORE_FRACTION = createItemGroup("moringtechOreFractionTab", () -> new ItemStack(ModItems.ORE_LITHIUM.get()));
+
     // Dust
     public static final ItemGroup DUST = createItemGroup("moringtechDustTab", () -> new ItemStack(ModItems.DUST_STONE.get()));
 
+    // Tools
+    public static final ItemGroup TOOLS = createItemGroup("moringtechToolsTab", () -> new ItemStack(ModItems.JACKHAMMER.get()));
+
     /**
-     * Универсальный метод для создания вкладки в креативном инвентаре.
+     * A universal method for creating a tab in your creative inventory.
      *
-     * @param label  Имя вкладки.
-     * @param iconSupplier   Предмет для иконки вкладки.
-     * @return Новый экземпляр ItemGroup.
+     * @param label  Tab name.
+     * @param iconSupplier   Item for tab icon.
+     * @return New instance of ItemGroup.
      */
     private static ItemGroup createItemGroup(String label, Supplier<ItemStack> iconSupplier) {
         return new ItemGroup(label) {

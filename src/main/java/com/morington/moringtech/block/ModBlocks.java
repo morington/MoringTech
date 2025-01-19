@@ -45,6 +45,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> ORE_ORE_SULFUR = ModBlockBuilder.createAndBuild("ore/sulfur", ModGroup.ORE);
     public static final RegistryObject<Block> ORE_APATITE = ModBlockBuilder.createAndBuild("ore/apatite", ModGroup.ORE);
     public static final RegistryObject<Block> ORE_QUARTZ = ModBlockBuilder.createAndBuild("ore/quartz", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_BAUXITE = ModBlockBuilder.createAndBuild("ore/bauxite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_SPERRYLITE = ModBlockBuilder.createAndBuild("ore/sperrylite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_COLUMBITE_TANTALITE = ModBlockBuilder.createAndBuild("ore/columbite_tantalite", ModGroup.ORE);
+    public static final RegistryObject<Block> ORE_PIRIT = ModBlockBuilder.createAndBuild("ore/pirit", ModGroup.ORE);
 
 
     public static void register(IEventBus eventBus) {ModBlockBuilder.BLOCKS.register(eventBus);}

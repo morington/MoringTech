@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/carrollite"}
+    "": {
+      "model": "moringtech:block/ore/carrollite"
+    }
   }
 }

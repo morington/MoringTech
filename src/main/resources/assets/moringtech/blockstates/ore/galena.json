@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/galena"}
+    "": {
+      "model": "moringtech:block/ore/galena"
+    }
   }
 }

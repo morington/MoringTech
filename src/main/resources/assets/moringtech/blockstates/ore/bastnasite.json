@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/bastnasite"}
+    "": {
+      "model": "moringtech:block/ore/bastnasite"
+    }
   }
 }

@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/hermatite"}
+    "": {
+      "model": "moringtech:block/ore/hematite"
+    }
   }
 }

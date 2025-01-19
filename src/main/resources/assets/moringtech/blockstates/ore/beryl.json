@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/beryl"}
+    "": {
+      "model": "moringtech:block/ore/beryl"
+    }
   }
 }

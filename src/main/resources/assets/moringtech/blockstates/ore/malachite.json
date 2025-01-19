@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/malachite"}
+    "": {
+      "model": "moringtech:block/ore/malachite"
+    }
   }
 }

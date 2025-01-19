@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/quartz"}
+    "": {
+      "model": "moringtech:block/ore/quartz"
+    }
   }
 }

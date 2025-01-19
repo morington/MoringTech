@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": {"model": "moringtech:block/ore/gold"}
+    "": {
+      "model": "moringtech:block/ore/gold"
+    }
   }
 }

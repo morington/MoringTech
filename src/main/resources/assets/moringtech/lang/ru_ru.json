@@ -1,6 +1,6 @@
 {
-  "itemGroup.moringtechOreTab": "Руда",
-  "block.moringtech.ore.spodumene": "Сподумен",
+  "itemGroup.moringtechMineralsTab": "Минералы",
+  "block.moringtech.ore.spodumene": "Сподум",
   "block.moringtech.ore.lepidolite": "Лепидолит",
   "block.moringtech.ore.beryl": "Берилл",
   "block.moringtech.ore.magnesite": "Магнезит",
@@ -15,8 +15,8 @@
   "block.moringtech.ore.limonite": "Лимонит",
   "block.moringtech.ore.siderite": "Сидерит",
   "block.moringtech.ore.cobaltite": "Кобальтит",
-  "block.moringtech.ore.carrollite": "Карроллит",
-  "block.moringtech.ore.garnierite": "Гарниры",
+  "block.moringtech.ore.carrollite": "Коронадоит",
+  "block.moringtech.ore.garnierite": "Гарниерит",
   "block.moringtech.ore.pentlandite": "Пентландит",
   "block.moringtech.ore.chalcopyrite": "Халькопирит",
   "block.moringtech.ore.bornite": "Борнит",
@@ -31,16 +31,24 @@
   "block.moringtech.ore.monazite": "Монацит",
   "block.moringtech.ore.uraninite": "Уранинит",
   "block.moringtech.ore.cassiterite": "Касситерит",
-  "block.moringtech.ore.galena": "Галена",
+  "block.moringtech.ore.galena": "Галенит",
   "block.moringtech.ore.stibnite": "Стибнит",
   "block.moringtech.ore.bismuthinite": "Висмутинит",
   "block.moringtech.ore.sulfur": "Сера",
   "block.moringtech.ore.apatite": "Апатит",
   "block.moringtech.ore.quartz": "Кварц",
+  "block.moringtech.ore.bauxite": "Боксит",
+  "block.moringtech.ore.sperrylite": "Сперрит",
+  "block.moringtech.ore.columbite_tantalite": "Колумбит-танталит",
 
   "itemGroup.moringtechOreChunkTab": "Фрагменты руд",
   "item.moringtech.ore.chunk.lithium": "Литий",
 
+  "itemGroup.moringtechOreFractionTab": "Фракции",
+
   "itemGroup.moringtechDustTab": "Пыль",
-  "item.moringtech.dust.stone": "Каменная пыль"
+  "item.moringtech.dust.stone": "Каменная пыль",
+
+  "itemGroup.moringtechToolsTab": "Инструменты",
+  "item.moringtech.tools.jackhammer": "Отбойный молоток"
 }
